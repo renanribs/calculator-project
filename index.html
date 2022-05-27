@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="output">
+        <div previous-operand class="previous-operand"></div>
+        <div current-operand class="current-operand"></div>
+      </div>
+      <button id="sup" all-clear class="span-two">AC</button>
+      <button id="sup" delete>⌫</button>
+      <button id="sup" operator class="operator">÷</button>
+      <button number>7</button>
+      <button number>8</button>
+      <button number>9</button>
+
+      <button operator class="operator">x</button>
+      <button number>4</button>
+      <button number>5</button>
+      <button number>6</button>
+      <button operator class="operator">-</button>
+
+      <button number>1</button>
+      <button number>2</button>
+      <button number>3</button>
+
+      <button operator class="operator">+</button>
+      <button number class="span-two">.</button>
+      <button number>0</button>
+      <button equals class="operator">=</button>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
